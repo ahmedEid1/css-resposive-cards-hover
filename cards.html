@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="cards.css">
+    </head>
+    <body>
+        <div class="container"> 
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Card one</h3>
+                <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Card two</h3>
+                <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Card three</h3>
+                <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        </div>
+
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script>
+            VanillaTilt.init(document.querySelectorAll(".card"), {
+		        max: 25,
+                speed: 400,
+                glare: true,
+                "max-glare": 1
+	        });
+
+            VanillaTilt.init(document.querySelectorAll(".container"), {
+		        max: 8,
+                speed: 150,
+                glare: true,
+                "max-glare": 0
+	        });
+
+           
+	
+	
+        </script>
+    </body>
+</html>
